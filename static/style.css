@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+form button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 216);
+    border: 3px solid rgb(2, 117, 216);
+    font-weight: bold;
+    color: white;
+}
+
+form p{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.result{
+    background-image: linear-gradient(to right, rgb(2, 117, 216) , yellow);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.result .city{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.result .temperature{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result .icon{
+    text-align: right;
+}
+
+.result .icon img{
+    height: 100px;
+    width: 100px;
+}
+
+.result .icon p{
+    font-weight: bold;
+}
+
+footer {
+    margin-top: auto;
+    font-size: smaller;
+}
+
+#alert{
+    text-align: center;
+    font-weight: bold;
+}
+  
+ @media only screen and (max-width: 950px) {
+    
+
+    
+  }
+ 
