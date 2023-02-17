@@ -10,6 +10,7 @@ AnyWeather is a Python web app that allows users search for weather of specific 
 - [Bootstrap](https://getbootstrap.com/) - Nav. design and general responsiveness to an extent.
 - [VS CODE](https://code.visualstudio.com/) - Code Editor used for the project.
 - [GIT](https://gitforwindows.org/) - Git Bash was used for Command Line.
+- [OpenWeather](https://openweathermap.org/) - API to get weather data.
 
 
 
